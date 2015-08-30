@@ -42,6 +42,9 @@
 
 <script type="text/javascript" src="wp-content/themes/the-cause/js/jquery.cookie.js"></script>
 
+<link rel="stylesheet" href="lib/sweet-alert.css">
+<script src="lib/sweet-alert.min.js"></script>
+
 <script type="text/javascript">
 /* STYLE SWITCHER */
 jQuery(document).ready(function($) {
@@ -51,6 +54,7 @@ jQuery(document).ready(function($) {
 		
 	});
 	
+	// swal("Your email subscripted successfully!");
 	
 	$("#styleChanger").addClass('hidden');
 	$("#styleChanger .trigger a").click(function() {
@@ -60,6 +64,41 @@ jQuery(document).ready(function($) {
 			$("#styleChanger").animate({"left": "-362px"}, "slow").addClass('hidden');
 		}
 	});
+
+
+	$('#comment_form').submit(function(ev) {
+			    ev.preventDefault(); // to stop the form from submitting
+			    
+			    /* Validations go here */
+			    // this.submit(); // If all the validations succeeded
+			    var name= $("#name").val();
+			    var email= $("#email").val();
+			    var phone= $("#phone").val();
+			    var message= $("#message").val();
+			    var form_data= "name="+ name+"&email="+email+"&phone="+phone+"&message="+ message;
+			    // alert(form_data);
+
+			    $.ajax({
+				  type: "POST",
+				  url: "comment_operation.php",
+				  data: form_data,
+				  success: function(success){
+				  	// alert(success);
+				  	if(success =='1'){
+				  		swal("Your email subscripted successfully!");
+				  		$("#name").val("");
+				  		$("#email").val("");
+				  		$("#phone").val("");
+				  		$("#message").val("");
+				  		$("#comment_form").trigger("reset");
+				  	}else{
+				  		swal("Your email is already subscribed!");
+				  	}
+				  }
+				});
+
+	});
+
 });
 
 function strpos (haystack, needle, offset) {
@@ -378,18 +417,18 @@ function strpos (haystack, needle, offset) {
         
         <div class="cwu">
         	<div><h4>Comments</h4>
-            <form name="" action="">
+            <form name="" id="comment_form" action="comment_operation.php" method="post">
                 <label>Name : </label>
-                <input type="text" name="user_name">
+                <input type="text" name="name" id="name" required>
                 
                 <label>Email : </label>
-                <input type="email" name="user_email">
+                <input type="email" name="email" id="email" required>
                 
                 <label>Phone : </label>
-                <input type="tel" name="user_phone">
+                <input type="tel" name="phone" id="phone" required>
                 
                 <label>Comments : </label>
-                <textarea name="message" id="message"></textarea>
+                <textarea name="message" id="message" required></textarea>
                 <input type="submit" class="bigButtonExtra roundButton" value="Submit">
             </form>
             
