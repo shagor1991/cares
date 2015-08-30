@@ -1,0 +1,1 @@
+[18-Apr-2013 08:19:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/caresbd/public_html/conference_new/reg_do.php:67) in /home/caresbd/public_html/conference_new/reg_do.php on line 71

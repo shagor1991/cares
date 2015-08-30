@@ -1,0 +1,23 @@
+h3{clear: both;}
+
+div#clock { color: white; width: 149px; overflow: hidden; text-align: center; font:7px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+div#clock p { background: #333; float: left; width: 37px; }
+div#clock p span { display: block; font-size: 18px; font-weight: bold; padding: 0 }
+div#clock div.space { color: #ccc; display: block; line-height: 1.7em; font-size: 50px; float: left; height: 88px; width: 30px; }
+
+div.coupon{ color: #333 !important; font-size: 50px; font-weight: bold; }
+
+div.multi_clock{ border: 1px solid #666; color: #333; float: left; margin: 10px; padding: 5px; }
+
+pre{background-color: #eee; border: 1px solid #ccc; line-height: 1.4em; padding: 10px; margin: 0;}
+
+
+
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}

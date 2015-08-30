@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_page { margin:0 auto; width:960px;}
+table {border:1px solid #090;}
+td { border:1px solid #090;}
+
+#link a{ text-decoration:none; color:#903;}
+#link a:hover{ text-decoration:underline; color:#000;}

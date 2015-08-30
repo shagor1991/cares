@@ -1,0 +1,77 @@
+html,body {
+background: white;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 110%;
+line-height: 150%;
+color: #666;
+margin: 0;
+background-image: none;
+}
+
+ul.unc-photo-carousel,
+div#backdrop, 
+div#spotlight-carousel,
+.wide img#expando, 
+.tall img#expando,
+#footer_secondary2,
+#f_left,
+#f_ctr-left,
+#f_center,
+#f_ctr-right,
+#f_right,
+#access li
+{display:none; !important}
+	
+#primary_nav, #breadcrumbs, #left-col, #headerGlobalLinks, .tools, #utility_bar, #footer, #footer_secondary, #text_resizer, #skip-navigation, #utility_search, #utility_nav, #information-nav, #about_this_image_inner, #backdrop, #right-col, #tools-main, .tools-main div a span, .tools-main div span, #tools_label, #header h1#unc-logo span, div#utility_logo a span, div#container div#footer_secondary2 {display: none;}
+
+#content_l, #content, #content-lr, #container {width: 100%; margin: 20px 8px 0px 8px; float: none;}
+
+img {border: none;}
+	
+a, a:link, a:visited {
+color: #333;
+background: transparent;
+font-weight: normal;
+text-decoration: underline;
+font-size: 100%;
+}
+	
+div#header h1#unc-logo a span.logo_unc   {
+display: none;}
+
+
+h1{
+font-size: 15pt;
+font-style: italic;
+font-weight: bold;
+}
+
+div#header {
+font-size: 12pt;
+margin-bottom: 10px;}	
+	
+
+
+div#header h2, h2{
+font-size: 12pt;
+font-weight: bold;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+margin: 0;
+padding: 10px 0;}
+
+div#header h2 a{
+text-decoration: none;}
+
+
+h3{
+font-size: 11pt;
+font-weight: bold;
+margin: 20px 0 0 0;
+padding: 0;}
+
+
+div#content-well div.list-group-container {overflow: visible; display: block}
+
+div#content-well div.accordion ul.first, div#content-well div.accordion ul.second, div#content-well div.accordion ul.third, div#content-well div.accordion ul.fourth, div#content-well div.accordion ul.fifth, div#content-well div.accordion ul.sixth {display: block;}     
+
+

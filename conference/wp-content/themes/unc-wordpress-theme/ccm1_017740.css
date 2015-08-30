@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer, #footer_secondary {
+	border: none;	
+	margin-top: 0px;
+}
+
+#artFooter {
+	background: url(images/ccm1_017760.jpg) #F6F4F3 repeat-x bottom center;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #C9C9C9;
+	height:auto !important;
+	min-height:97px;
+	font-size: 80%;
+	line-height: 1.3em;
+	padding: 0 0 2px 0;
+	width: 900px; 
+	margin: 0px auto 8px; 
+	text-align: left; 
+}
+
+#artFooter h5 {
+	margin: 2px 0 3px 0;
+	text-transform: uppercase;
+	font-size: 100%;
+	letter-spacing: .03em;
+	display: inline;
+	display: block;
+	color: #666;
+	border: none;
+}
+
+#artFooter ul li {
+	margin-bottom: 2px;	
+}
+
+#f_ctr-left a, #f_center a, #f_ctr-right a, #f_right a {
+display: block;
+text-decoration: none;
+}
+
+#f_left {
+	width: 186px !important;
+	width: 209px;
+	margin: 16px 11px 0 16px;
+	float: left;
+}
+
+#f_ctr-left {
+	width: 150px !important;
+	width: 170px;
+	padding: 10px;
+	float: left;
+}
+
+#f_center {
+	width: 150px !important;
+	width: 170px;
+	padding: 10px;
+	float: left;
+}
+
+#f_ctr-right {
+	width: 150px !important;
+	width: 170px;
+	padding: 10px;
+	float: left;
+}
+
+#f_right {
+	width: 150px !important;
+	width: 170px;
+	padding: 10px;
+	float: left;
+}
+
+#f_left div, #f_ctr-left div, #f_center div, #f_ctr-right div, #f_right div {
+	font-size:1em;
+	letter-spacing:0.03em;
+	padding-bottom:4px;
+}
+
+#footer ul li a {
+color: #56a0d3;
+text-decoration: none;
+}
+/* ------- Begin Social Tools ----------- */
+
+
+.collapsable {
+    margin: 0px;
+    padding: 3px 4px 4px 8px;
+    border: 1px solid black;
+    background: #fff;
+	border: 1px solid #c9c9c9;
+	width: 160px;
+   
+}
+
+.collapsable p {
+    margin: 6px 0;  
+}
+
+
+a span {
+	border: none;
+	padding: 0 6px 0 0;
+}
+
+.artFacebook  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images//ccm1_017590.png) no-repeat 0 50%;	
+}
+
+a:hover .artFacebook  {
+	background: url(images/ccm1_017589.png) no-repeat 0 50%;
+}
+
+.artFacebook  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017590.png) no-repeat 0 50%;	
+}
+
+a:hover .artFacebook  {
+	background: url(images/ccm1_017589.png) no-repeat 0 50%;
+}
+
+.artDelicious  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017584.png) no-repeat 0 50%;	
+}
+
+a:hover .artDelicious  {
+	background: url(images/ccm1_017583.png) no-repeat 0 50%;
+}
+
+.artDigg {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017586.png) no-repeat 0 50%;	
+}
+
+a:hover .artDigg  {
+	background: url(images/ccm1_017585.png) no-repeat 0 50%;
+}
+
+.artTwitter  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017596.png) no-repeat 0 50%;	
+}
+
+a:hover .artTwitter  {
+	background: url(images/ccm1_017595.png) no-repeat 0 50%;
+}
+
+.artEmail  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017588.png) no-repeat 0 50%;	
+}
+
+a:hover .artEmail  {
+	background: url(images/ccm1_017587.png) no-repeat 0 50%;
+}
+
+.artFeed  {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(images/ccm1_017592.png) no-repeat 0 50%;	
+}
+
+a:hover .artFeed  {
+	background: url(images/ccm1_017591.png) no-repeat 0 50%;
+}
+
+.FBConnectButton_Simple, .FBConnectButton_RTL_Simple {
+background: url(images/ccm1_017590.png) no-repeat 0 0% !important;
+margin: 0 !important;
+padding: 2px 3px 3px 0px !important;
+position: relative;
+top: -5px;
+}
+
+a:hover .FBConnectButton_Simple, a:hover .FBConnectButton_RTL_Simple {
+	background: url(images/ccm1_017589.png) no-repeat 0 0% !important;
+
+}
+
+.FBConnectButton_Text_Simple {
+	margin: 0;
+	padding: 0;
+}
+/* ------- End Social Tools ----------- */

@@ -1,0 +1,254 @@
+/*carousel stuff*/
+
+#carousel-2col{
+background: none;
+float:right;
+width: 705px;
+overflow: hidden;
+height: 304px;
+padding: 0 0 10px;
+margin: 0px auto 8px;
+}
+
+#carousel-2col .carousel-text{
+position: relative;
+padding: 0px;
+background: none;
+width: 100%;
+}
+
+#carousel-2col .carousel-image{
+float:left;
+border: 1px solid #56A0D3;
+height: 300px;
+margin:0px 8px 8px 8px;
+max-width: 67%;
+
+}
+
+#carousel-2col .carousel-image img{
+height: 100%;
+width: auto;
+max-width: 395px;
+}
+
+
+#carousel-2col .carousel-pager {
+background: white;
+}
+#carousel-2col .carousel-title {
+color: #56A0D3;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 197%;
+font-weight: normal;
+line-height: 1.2em;
+}
+#carousel-2col .carousel-description{
+color: #6B6B6B;
+padding-top: 10px;
+}
+
+#carousel-3col{
+float:right;
+overflow: hidden;
+height: 236px;
+padding: 0 0 10px;
+margin: 0px auto 8px;
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px;  
+-khtml-border-radius: 10px;
+}
+
+#carousel-3col .carousel-text{
+position: relative;
+padding: 12px;
+background: none;
+color: #DEDEDE;
+}
+
+#carousel-3col .carousel-image{
+float:left;
+border: 1px solid #666;
+background-color: black;
+margin: 8px;
+padding: 2px;
+
+}
+
+
+#carousel-3col .carousel-title {
+color: #69C;
+font-size: 1.5em;
+line-height: 1.55;
+padding: 4px 0px 8px;
+}
+
+#carousel-3col .carousel-image{
+max-width: 67%;
+}
+
+.carousel-image img{
+height: 100%;
+width: auto;
+max-width: 605px;
+}
+
+.carousel-pager{
+margin: 0;
+position: relative;
+float:right;
+padding: 0px;
+}
+
+.jcarousel-container {
+bottom: 70px;
+position: relative;
+}
+
+#carousel-2col #pager-numbers, #carousel-2col #pager-titles {
+background: white;
+}
+
+#carousel-3col #pager-numbers, #carousel-3col #pager-titles {
+background: black;
+padding: 6px 4px;
+}
+
+
+#pager-numbers, #pager-titles{
+bottom: 29px;
+position: relative;
+padding: 6px 2px;
+}
+
+#pager-numbers a, #pager-titles a{
+/*background: #DDD url(btn_background.gif) repeat-x;
+border: 1px solid #666;*/
+color: #666;
+padding: 3px 5px;
+}
+#pager-numbers .carousel-pager-item-active, #pager-titles .carousel-pager-item-active{
+/*background:#56A0D3;*/
+color: white;
+}
+
+
+.pager-prevnext{
+bottom: 22px;
+right: 8px;
+}
+
+.pager-prevnext a{
+background: #DDD url(btn_background.gif) repeat-x;
+/*border: 1px solid #666;*/
+color: #666;
+}
+
+.carousel-pager-button-next{
+width: 30px;
+}
+
+.carousel-pager-item-classic {
+width: 100px;
+
+}
+
+
+.carousel-structural-link {
+text-transform: capitalize;
+font-weight: bold;
+}
+
+
+.carousel-pager ul, .carousel-pager ul li{
+display: inline;
+}
+
+
+
+
+.carousel-pager-item, .carousel-thumbnail{
+padding: 0em;
+}
+
+.carousel-pager ul, .carousel-pager ul li {
+display: block;
+}
+
+.carousel-thumbnail {cursor:pointer; opacity:0.8;filter:alpha(opacity=70);}
+.carousel-thumbnail:hover {opacity:1 !important;filter:alpha(opacity=100);}
+.carousel-thumbnail.carousel-pager-item-active {opacity:1 !important;filter:alpha(opacity=100); cursor:default;}
+
+
+
+/*important things for jcarousel layout*/
+
+.carousel-thumbnail img {
+height: 60px;
+width: 78px;
+border: 1px solid #56A0D3;
+}
+
+.jcarousel-clip {
+   z-index: 2;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   position: relative;
+    }
+
+.jcarousel-container-horizontal {
+   width: 260px;
+   padding: 0px 15px;
+    }
+
+#carousel-3col .jcarousel-container-horizontal {
+right: 7px;
+}
+    
+.jcarousel-clip-horizontal {
+   width: 260px;
+   height: 66px;
+   margin: 0px;
+   padding: 0px;
+    }
+
+    
+.jcarousel-item-horizontal {
+    margin-right: 10px;
+    }
+    
+.jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+    }
+
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 13px;
+    right: 0px;
+    width: 11px;
+    height: 32px;
+    cursor: pointer;
+    background: url('carousel_arrow_right.png') no-repeat 0 0;
+    }
+    
+.jcarousel-next-disabled-horizontal{
+    cursor: default;
+    display: none !important;
+    }
+    
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    width: 11px;
+    height: 32px;
+    cursor: pointer;
+    background: url('carousel_arrow_left.png') no-repeat 0 0;
+    }
+    
+.jcarousel-prev-disabled-horizontal {
+    cursor: default;
+    display: none !important;
+    }

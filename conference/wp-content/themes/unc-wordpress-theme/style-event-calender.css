@@ -1,0 +1,125 @@
+/*********Custom Style************/
+
+li.next_event_custom{
+	margin-top:5px;
+}
+
+
+li.event_calender_custom{
+	width:100%;
+	height:auto;
+	float:left;
+	list-style:none;
+}
+
+li.event_calender_custom .when_custom{
+    background: url('http://www.unc.edu/ccm/groups/system/@unc/documents/web-assets/icon_calendar.png') no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 49px;
+    margin: 0 0 10px;
+    position: relative;
+    text-align: center;
+    width: 46px;
+}
+
+
+
+
+li.event_calender_custom .when_custom .calendar_month{
+	text-align: center;
+	display: block;
+	font-variant: small-caps;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+
+li.event_calender_custom .when_custom .calendar_day{
+	margin-top:5px;
+	text-align: center;
+	display: block;
+	color: #8E8E8E;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+li.event_calender_custom .event_custom{
+	float:right;
+	width:140px;
+}
+
+li.event_calender_custom .loc_custom{
+	float:right;
+	width:140px;
+}
+
+li.event_calender_custom .event_custom a, li.event_calender_custom .loc_custom a{
+	font-size:100% !important;
+}
+
+li.event_calender_custom .event_custom a:hover, li.event_calender_custom .loc_custom a:hover{
+	text-decoration:underline;
+	background:none;
+	color:#2376A1;
+}
+
+
+
+table.tribe-events-calendar th{
+    background: url(images/h2_bg_repeat.gif) repeat-x scroll left bottom #2376A1;
+    border-top: 1px solid #9BBDDE;
+    color: #FFFFFF;
+    font-size: 95%;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 0 0 8px;
+    padding: 5px 8px;
+    position: relative;
+    text-shadow: 0 0.05em 0.05em #4F7EAC;
+    text-transform: uppercase;
+}
+
+.tribe-events-calendar td.tribe-events-present .daynum, .tribe-events-calendar td.tribe-events-present .daynum > a{
+    background: url(images/h2_bg_repeat.gif) repeat-x scroll left bottom #2376A1;
+    color: #FFFFFF;
+	padding:6px 0;
+    font-size: 95%;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 0.05em 0.05em #4F7EAC;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+
+.tribe-events-calendar-widget td.tribe-events-present .tribe-events-event {
+padding:6px 0 !important;
+}
+
+.tribe-events-calendar td a {
+	font-size:95%;
+}
+
+
+.single-sp_venue .upcoming .entry-title a, .events-archive .upcoming .entry-title a{
+    color: #FFFFFF;
+    font-size: 95%;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 0 0 8px;
+    padding: 5px 8px;
+    position: relative;
+    text-shadow: 0 0.05em 0.05em #4F7EAC;
+    text-transform: uppercase;
+}
+
+
+.tribe-events-events .tribe-events-event-list-meta{
+	line-height:20px !important;
+}
+
+ dt.event-label {
+ 	margin-top: 0px;
+ }
