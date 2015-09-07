@@ -13,7 +13,9 @@
 
 
 
+
 <!-- STYLES -->
+
 <link href='wp-content/themes/the-cause/styles/fonts/lora.css' rel='stylesheet' type='text/css' media='screen' id='themeFont'>
 <link href='wp-content/themes/the-cause/styles/fonts2/greatVibes.css' rel='stylesheet' type='text/css' media='screen'>
 <link rel="stylesheet" href="wp-content/themes/the-cause/styles/grid960.css" type="text/css" media="screen"/>
@@ -42,8 +44,9 @@
 
 <script type="text/javascript" src="wp-content/themes/the-cause/js/jquery.cookie.js"></script>
 
-<link rel="stylesheet" href="lib/sweet-alert.css">
-<script src="lib/sweet-alert.min.js"></script>
+<!-- This is what you need for sweet alert -->
+<script src="lib/sweetalert-dev.js"></script>
+<link rel="stylesheet" href="lib/sweetalert.css">
 
 <script type="text/javascript">
 /* STYLE SWITCHER */

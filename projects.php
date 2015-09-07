@@ -8,7 +8,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Executive Committee</title>
+<title>Projects</title>
 
 
 
@@ -70,6 +70,7 @@ function strpos (haystack, needle, offset) {
 
 </script>
 <style>
+td { padding: 10px;}
 .mem_name { font-weight:bold; font-size:large;}
 .member { padding-left:40px;}
 </style>
@@ -97,50 +98,7 @@ function strpos (haystack, needle, offset) {
 <div id="contentHolder" class="width100">
     
 	<!-- Navigation -->
-    <div id="navigationBckg" class="green width100">
-		
-        <div id="navigation">
-		
-		<div class="width1000">
-		<ul id="menu-navigation" class="navigation"><li id="menu-item-1101" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-1101"><a href="index.php">Home</a>
-
-</li>
-<li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="#">CARES</a>
-<ul class="sub-menu">
-	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="at_a_glance.html">At a Glance</a></li>
-	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="vision_objectives.html">Vision, Mission and Objectives</a></li>
-    <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="performance_report.html">Performance Report</a></li>
-	<li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="#">Function & Administration</a>
-        <ul class="sub-menu lastul">
-            <li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="e_c_members.html">Executive Committee Members</a></li>
-            <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="governance.html">Governance of CARES</a></li>
-            <li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="#">Membership</a></li>
-            <li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="memorandum.html">Memorandum of Association</a></li>
-        </ul>
-    </li>
-</ul>
-
-</li>
-
-<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="projects.html">Projects</a></li>
-<!--<li id="menu-item-1124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1124"><a href="news.html">News</a></li>-->
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="current_a.html">Current Affairs</a></li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="video.html">Video</a></li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129 con"><a href="#">Conference</a>
-<ul class="sub-menu">
-	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="conference">Recently concluded conference</a></li>
-	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="conference_report.html">Conference report (Draft)</a></li>
-    <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="conference_souvenir.html">Conference souvenir</a></li>
-	
-</ul>
-</li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="contact.html">Contact Us</a></li>
-
-</ul>        </div>
-		
-        </div>
-		
-    </div>
+    <?php include('navigation.php'); ?>
 	<!-- .Navigation -->
         
     <!-- MAIN -->
@@ -161,7 +119,7 @@ function strpos (haystack, needle, offset) {
 		<div class="fullWidth">
 
 
-<h2 style="text-align:center">Executive Committee (2014 – 2015)</h2>
+<h2 style="text-align:center">Projects</h2>
 
 <!-- News -->
 <div id="news">
@@ -171,172 +129,17 @@ function strpos (haystack, needle, offset) {
 			        
 	        
         <div>
-      <p class="member">      
-   <!--<span class="mem_name">Dr. A. Majeed Khan</span> <br/>
-   <i>Chairman</i><br/>
-
-    <span class="mem_name">Professor Dr. M. Shamsher Ali</span><br/>
-    President<br/>
-   Bangladesh Academy of Sciences (2008 – 2011): <i>Vice  Chairman</i><br/>
-
-   <span class="mem_name">Professor Dr. K.M. Sultanul Aziz</span><br/>
-   Fellow, Bangladesh Academy of Sciences – <i>Secretary General</i><br/>
-
-   <span class="mem_name">Prof. Dr. Md Abdur Razzak</span><br/>
-   Former President<br/>
-   Bangladesh Agriculture Research Council – <i>Assistant Secretary General</i><br/>
-
-   <span class="mem_name">Commodore (Rtd) M. Ataur Rahman</span><br/>
-   Chairman<br/>
-   Business & Management com. Ltd.(BAMCO)<br/>
-
-   <span class="mem_name">Members:</span><br/>
-   <span class="mem_name">Dr. Salehuddin Ahmed</span><br/>
-   Former Governor, Bangladesh Bank<br/>
-   Professor, North South University<br/>
-
-   <span class="mem_name">Dr. Mahabub Hossain</span><br/>
-   Executive Director<br/>
-   BRAC<br/>
-
-   <span class="mem_name">Lt. Gen. (Rtd) Dr. M. Aminul Karim</span><br/>
-   Senior Research Fellow<br/>
-   University of Malaya<br/>
-
-   <span class="mem_name">Professor Dr. Haseena Khan</span><br/>
-   Department of Biochemistry and Molecular Biology<br/>
-   Dhaka University<br/>
-
-   <span class="mem_name">Mr. Wali-ul- Maroof Matin</span><br/>
-   Chairman and Managing Director<br/>
-   Alliance Capital Asset Management Ltd.<br/>
-
-   <span class="mem_name">Dr. M. Muhit</span><br/>
-   Pro – Vice Chancellor<br/>
-   University of South Asia, Dhaka<br/>
-
-   
-
-<span class="mem_name">Maj. Gen. (Rtd) Prof. Dr. ASM Matiur Rahman</span><br/>
-   Physician, Former Adviser, Caretaker Government<br/>
-Fellow, Bangladesh Academy of Sciences.-->
-
-		<i>Chairman</i><br/>
-<span class="mem_name">Dr. A. Majeed Khan</span><br/>
-Educational Entrepreneur<br/>
-Mob: 01713-048986<br/>
-<a href="profile_Dr-A-Majeed-Khan.html" style="text-decoration:none; color:#0C0">Profile</a> <br/> <br/>
-
-<i>Vice Chairman:</i><br/>
-<span class="mem_name">Prof. Dr. M. Shamsher Ali</span><br/>
-President (2004-2012), Bangladesh Academy of Sciences (BAS)<br/>
-President (2013 - ), Educational Quality Assurance Foundation (EQAF) <br/>
-Mob: 01819-253931<br/><br/>
-
-<i>General Secretary:</i><br/>
- <span class="mem_name">Prof. Dr. K. M. Sultanul Aziz</span>, <i>(Ex-officio)*</i><br/>
- Secretary, Bangladesh Academy of Sciences (BAS)<br/>
- Mob: 01819-410315<br/><br/>
-
-<i>Treasurer:</i><br/>
-<span class="mem_name">Commodore M. Ataur Rahman</span>, <i>(Ex–officio)</i><br/>
- Chairman<br/>
- Business and Management Co. Ltd (BAMCO)<br/>
- Mob: 01711-563228<br/><br/>
-
-<i>Joint Secretary:</i><br/>
- <span class="mem_name">Dr. Md. Abdur Razzaque</span><br/>
- Former Executive Chairman, Bangladesh Agricultural Research Council<br/>
- Mob: 01711-417983<br/><br/>
-
-<i>Members:</i><br/>
-<span class="mem_name">Dr. Salehuddin Ahmed</span><br/>
-Former Governor, Bangladesh Bank  <br/>
-Professor, BRAC University<br/>
-Mob: 01713-063851<br/><br/>
-
-<span class="mem_name">Prof. Dr.  Naiyyum Choudhury</span>,<br/>
-Secretary (2004 – 2012), Bangladesh Academy of Sciences (BAS)<br/>
-Professor and Coordinator, Biotechnology, BRAC University<br/>
-Tel: 8824051/ 4059<br/><br/>
-
-<span class="mem_name">Dr. Md. Enamul Hoque</span>,<br/>
-Head, Biotechnology Division, Bangladesh Rice Research Institute (BRRI)<br/>
-Mob: 01716-601-099<br/><br/>
-
-<span class="mem_name">Prof. Dr. Haseena Khan</span> <i>(Ex-officio)</i><br/>
-Department of Biochemistry and Molecular Biology, Dhaka University<br/>
-Mob: 01711-612-344<br/><br/>
-
-
-<span class="mem_name">Prof. Dr. A. Sattar Mandal</span>,<br/>
-Former Member, (Agriculture and Rural Institutions) Planning Commission, Bangladesh<br/>
-E-mail: asmandal11@gmail.com<br/><br/>
-
-       <span class="mem_name">Dr. Firdausi Qadri</span>,<br/>
-Director, Centre for Vaccine Science, ICDDR’ B, Dhaka<br/>
-Mob: 01711-595367<br/><br/>
-
-<span class="mem_name">Prof. Dr. Mohammad Abdur Rahim</span>, <i>(Ex–officio)</i><br/>
-Department of Horticulture, Bangladesh Agricultural University<br/>
-Mob: 01711–854 471<br/><br/>
-
-<span class="mem_name">Maj. Gen. Prof. Dr. ASM Matiur Rahman</span>, <i>(Ex-officio)</i><br/>
- Physician, Advisor, Caretaker government (2007 – 08)<br/>
- Fellow Bangladesh Academy of Sciences<br/>
-Mob: 01713-030403<br/><br/>
-
-<span class="mem_name">Mr. Ziaur Rahman</span><br/>
-Proprietor and CEO, International Institute of Technology & Management (IITM)<br/>
-Mob: 01711-543431<br/><br/>
-
-<span class="mem_name">Dr. S.K. Roy</span><br/>
-Sr. Scientist and Chairman, Bangladesh Breastfeeding Foundation, Dhaka<br/>
-Mob: 01943-220587  <br/><br/>
-
-<span class="mem_name">Prof. Dr. Zeba I. Seraj</span>, <br/>
-Department of Biochemistry and Molecular Biology, Dhaka University<br/>
-Mob: 01711-595576<br/><br/>
-
-<span class="mem_name">Mr. M. Shahjahan</span><br/>
- Director and CEO, Bangladesh Center for Communication Programs (BCCP)<br/>
-Mob: 01711-548966<br/><br/>
-
-<span class="mem_name">Principal (Rtd) Najma Shams</span><br/>
-Educationist<br/>
-Mob: 01711-148599<br/><br/>
-              
-             <i>*Ex-officio</i>: Convener of statutory committee & working groups<br/><br/>
-<span class="mem_name">Fellows</span>:<br/><br/>
-
-<span class="mem_name">Prof. Dr. M. Shamsher Ali</span>,<br/>
-President (2008-2012), Bangladesh Academy of Sciences <br/><br/>
-
-      <span class="mem_name">Dr. Kazi M. Badruddoza </span><br/>
-      National Emeritus Scientist, National Agricultural Research System<br/>
-      Hs. 11, Rd. 5-A, Sector. 5, Uttara , Dhaka-1230<br/><br/>
-
-<span class="mem_name">Prof. Dr. Rita R. Colwell</span><br/>
-Distinguished University Professor, University of Maryland, College Park, Maryland,  USA<br/><br/>
-
-<span class="mem_name">Dr. Zafrullah Chowdhury </span><br/>
-Founder-Trustee of Gonoshasthaya Kendra (GK) Trust.<br/>
-Founder, Gonoshasthaya Biswabiddalaya, Savar<br/>
-Hs. 51, Rd.  9/A, Dhanmondi R/A, Dhaka.<br/><br/>
-
-
-
-<span class="mem_name">Dr. A.K.M. Aminul Haque</span><br/>
-National Professor, <br/>
-Hs.  31, Rd. 123, Gulshan, Dhaka – 1212, Bangladesh<br/>
-Mob: 01199-884422<br/><br/>
-
-<span class="mem_name">Prof. Ahmad Shamsul Islam</span><br/>
-Fellow, Bangladesh Academy of Sciences; Founding Fellow, Islamic Academy of Sciences<br/>
-       Hs.12, Rd. 135, Gulshan, Dhaka-1212, Bangladesh
-
-
-            </p>
+            <h3>Study of 'Price Chain' of fresh vegetables from growers in different parts of the country to different kitchen markets in Dhaka city:</h3>
+            <p>The study was funded by CARES and undertaken in February and March, 2012 to assess the impact of increase in vegetable production on farmers and whether they get fair price of their products. The finding was that though vegetable production had increased over the years and price at city markets were high, farmers hardly have control over actual sale prices. Most of the time, they have no control over prices when they harvest their produce due to various factors including mahajans and dadondars. Most of the difference between farmer-end procurement price and actual market-end selling price are pocketed by various groups of middlemen and other non-stake holders. 
+ </p>
+ 			<p>Among recommendations of the report are: investment in agro sectors, freeing farmers from the clutches of mahajans and private money lenders by providing them access to institutional lending including cooperatives, private sector initiatives to provide seeds, fertilizer and pesticide at reasonable price, setting up more agro-business initiatives and services, and involvement of farmers as economic partners of enterprises.
+ </p>
+            <h3>Araizhazar KAP study: </h3>
+            <p>CARES initiated a Pilot Study of Knowledge, Attitude and Practices (KAP) of the people of Araizhazar, Narayanganj district, related to water, air and soil pollution early in April 2012. The objective of the study was to identify the lacking of the people's knowledge about pollution and to find out the prevalence of morbidity related to air, water and soil pollution among the study participants.
+ </p>
+            
+            <p>The report provided interesting perspective of the lack of knowledge of the people and the impact of industrialization on environmental pollution and human health in a peri-urban setting. Further in-depth studies could follow from the findings. The report was presented in a CARES seminar and also at Ibne Sina Medical College.
+ </p>
         </div>
     </div>
 

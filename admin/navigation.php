@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Admin Panel</a>
+                <a class="navbar-brand" href="home.php">Admin Panel</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -51,7 +51,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="home.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="comments_table.php"><i class="fa fa-comments"></i> Comments</a>
@@ -63,21 +63,21 @@
                             <a href="manage_video.php"><i class="fa fa-video-camera"></i> Manage Video</a>
                         </li>
                         <li>
-                            <a href="add_book.php"><i class="fa fa-plus "></i> Add Books</a>
+                            <a href="add_book.php"><i class="fa fa-plus "></i> <i class="fa fa-book"></i> Add Books</a>
                         </li>
                         <li>
-                            <a href="manage_book.php"><i class="fa fa-plus "></i> Manage Books</a>
+                            <a href="manage_book.php"><i class="fa fa-tasks"></i> <i class="fa fa-book"></i> Manage Books</a>
                         </li>
                         <li>
                             <a href="add_files_book.php"><i class="fa fa-plus "></i> Add files to Book</a>
                         </li>
                         <li>
-                            <a href="manage_book_files.php"><i class="fa fa-plus "></i> Manage Book Files</a>
+                            <a href="manage_book_files.php"><i class="fa fa-tasks"></i> Manage Book Files</a>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
+                        </li> -->
                         
                        
                         

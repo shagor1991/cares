@@ -8,7 +8,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Projects</title>
+<title>Vision, Mission and Objectives</title>
 
 
 
@@ -98,50 +98,7 @@ td { padding: 10px;}
 <div id="contentHolder" class="width100">
     
 	<!-- Navigation -->
-    <div id="navigationBckg" class="green width100">
-		
-        <div id="navigation">
-		
-		<div class="width1000">
-		<ul id="menu-navigation" class="navigation"><li id="menu-item-1101" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-60 current_page_item menu-item-1101"><a href="index.php">Home</a>
-
-</li>
-<li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="#">CARES</a>
-<ul class="sub-menu">
-	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="at_a_glance.html">At a Glance</a></li>
-	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="vision_objectives.html">Vision, Mission and Objectives</a></li>
-    <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="performance_report.html">Performance Report</a></li>
-	<li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="#">Function & Administration</a>
-        <ul class="sub-menu lastul">
-            <li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="e_c_members.html">Executive Committee Members</a></li>
-            <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="governance.html">Governance of CARES</a></li>
-            <li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="#">Membership</a></li>
-            <li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="memorandum.html">Memorandum of Association</a></li>
-        </ul>
-    </li>
-</ul>
-
-</li>
-
-<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="projects.html">Projects</a></li>
-<!--<li id="menu-item-1124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1124"><a href="news.html">News</a></li>-->
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="current_a.html">Current Affairs</a></li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="video.html">Video</a></li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129 con"><a href="#">Conference</a>
-<ul class="sub-menu">
-	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="conference">Recently concluded conference</a></li>
-	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="conference_report.html">Conference report (Draft)</a></li>
-    <li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="conference_souvenir.html">Conference souvenir</a></li>
-	
-</ul>
-</li>
-<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="contact.html">Contact Us</a></li>
-
-</ul>        </div>
-		
-        </div>
-		
-    </div>
+    <?php include('navigation.php'); ?>
 	<!-- .Navigation -->
         
     <!-- MAIN -->
@@ -162,7 +119,7 @@ td { padding: 10px;}
 		<div class="fullWidth">
 
 
-<h2 style="text-align:center">Projects</h2>
+<h2 style="text-align:center">Vision, Mission and Objectives</h2>
 
 <!-- News -->
 <div id="news">
@@ -172,17 +129,35 @@ td { padding: 10px;}
 			        
 	        
         <div>
-            <h3>Study of 'Price Chain' of fresh vegetables from growers in different parts of the country to different kitchen markets in Dhaka city:</h3>
-            <p>The study was funded by CARES and undertaken in February and March, 2012 to assess the impact of increase in vegetable production on farmers and whether they get fair price of their products. The finding was that though vegetable production had increased over the years and price at city markets were high, farmers hardly have control over actual sale prices. Most of the time, they have no control over prices when they harvest their produce due to various factors including mahajans and dadondars. Most of the difference between farmer-end procurement price and actual market-end selling price are pocketed by various groups of middlemen and other non-stake holders. 
- </p>
- 			<p>Among recommendations of the report are: investment in agro sectors, freeing farmers from the clutches of mahajans and private money lenders by providing them access to institutional lending including cooperatives, private sector initiatives to provide seeds, fertilizer and pesticide at reasonable price, setting up more agro-business initiatives and services, and involvement of farmers as economic partners of enterprises.
- </p>
-            <h3>Araizhazar KAP study: </h3>
-            <p>CARES initiated a Pilot Study of Knowledge, Attitude and Practices (KAP) of the people of Araizhazar, Narayanganj district, related to water, air and soil pollution early in April 2012. The objective of the study was to identify the lacking of the people's knowledge about pollution and to find out the prevalence of morbidity related to air, water and soil pollution among the study participants.
- </p>
+            <h3>Vision</h3>
+            <p>CARES visions itself to be a "virtual University" working together with institutions, organizations and programs for human and economic development of the country. It is envisaged as an 'apex development organization' with members and constituents as defined in the Constitution. </p>
+        	
+            <h3>Objectives</h3>
+            <p>The principal objective of the CARES is to support innovations (research and experimentation), prototyping, and evidence based decision making together with rigorous evaluation of policy and performance to accelerate an integrated economic development and social well-being of the people of Bangladesh.
+CARES works in the following broad fields: </p>
+			<table>
+            	<tr> 
+                	<td>I. </td>
+                    <td> Agricultural development including fishery, livestock, horticulture, etc.</td>
+                </tr>
+                <tr>
+                    <td>II. </td>
+                    <td>Life sciences: Basic hygiene, preventive measures and curative measures against diseases on life. </td>
+                </tr>
+                <tr>
+                    <td>III. </td>
+                    <td>Small & Medium Enterprises in agriculture, food processing and promotion of agro-based industries, etc. </td>
+                </tr>
+                <tr>
+                    <td>IV. </td>
+                    <td>Green Technology: Food Production technology for Food Security, Renewable Energy, Industrial Waste Disposal, Forestry, Climate Change, etc. </td>
+                </tr>
+                <tr>
+                    <td>V. </td>
+                    <td>Rural Enterprises: Upgrading indigenous technology to produce for domestic markets, exports, etc. </td>
+                </tr>
+            </table>
             
-            <p>The report provided interesting perspective of the lack of knowledge of the people and the impact of industrialization on environmental pollution and human health in a peri-urban setting. Further in-depth studies could follow from the findings. The report was presented in a CARES seminar and also at Ibne Sina Medical College.
- </p>
         </div>
     </div>
 
